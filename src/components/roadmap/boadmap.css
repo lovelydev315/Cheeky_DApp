@@ -1,0 +1,63 @@
+.boadmap-control header span {
+    color: white;
+    /* text-shadow: 1px 0 20px rgb(200 255 0 / 31%); */
+    text-align: center;
+    color: white;
+}
+
+.boadmap-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    /* background-color: #141416;
+     */
+     background-color: red;
+    background-image: url(../../assets/brickwall.png);
+    text-align: center;
+    color: white;
+    margin-bottom: 45px;
+    border: solid 20px black;
+}
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
+  }
+/* 
+.boadmap-control header {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+} */
+.boadmap-title{
+    color: white;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "PoppinsExtraLight";
+}
+.boadmap-description {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-family: newThing;
+}
+
+.boadmap-control img {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.boadmap-control img {
+    /* border: solid black 2px; */
+    border-radius: 0px;
+    width: 50%;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,39 @@
+.collapse-header-control {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.collapse-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.collapse-header h4 {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #E8B331;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.collapse-header p {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.collapse-content {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}

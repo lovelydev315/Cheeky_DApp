@@ -1,0 +1,33 @@
+.team-control header {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: "normal";
+}
+
+.team-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-image: url("../../assets/brickwall.png");
+    border: solid black 20px;
+    margin-bottom: 45px;
+    font-family: asdf;
+}
+
+@font-face {
+    font-family: asdf;
+    src: url(../../assets/fonts/Poppins-ExtraLight.ttf);
+  }
+
+.team-control header span {
+    color: #000000;
+    font-style: "normal"
+}
+
+.team-control-card{
+    justify-content: center;
+    text-align: center
+}

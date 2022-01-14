@@ -1,0 +1,77 @@
+.footer_layout{
+    background-color: #242323;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.footer_section{
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(63,67,73);
+    height:250px;
+    margin: 0em 3em;
+    min-width: 1240px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_text_room{
+    flex: 2;
+    color: white;
+    border-right: solid thin rgb(63,67,73);
+    display: grid;
+    place-items: center;
+}
+
+.footer_title{
+    color: white;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "PoppinsExtraLight";
+}
+/* https://www.moneycorp.com/globalassets/usa-assets/images/logos/onetreeplanted_key-logo_long_white.png */
+.footer_bg_1{
+    flex: 3;
+    background-image: url(https://www.moneycorp.com/globalassets/usa-assets/images/logos/onetreeplanted_key-logo_long_white.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-right: solid thin rgb(63,67,73);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .footer_section{
+        background-color: #242323;
+        border:none;
+        height:500px;
+        margin: 0em 3em;
+        min-width: 300px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_title{
+        color: white;
+        font-style: normal;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: "PoppinsExtraLight";
+    }
+    .footer_text_room{
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    }
+    .footer_bg_1{
+        flex: 5;
+        background-image: url(https://www.moneycorp.com/globalassets/usa-assets/images/logos/onetreeplanted_key-logo_long_white.png);
+        background-repeat: no-repeat;
+        border-right: none;
+        border-bottom:solid thin rgb(63,67,73) ;
+    }
+    
+   
+}

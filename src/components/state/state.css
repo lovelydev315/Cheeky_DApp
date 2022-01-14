@@ -1,0 +1,54 @@
+.state_layout{
+    /* background-color: rgb(20,20,22); */
+    text-align: center;
+    /* padding-bottom: 2em; */
+    /* margin-bottom: 20px; */
+    /* border: solid black 20px; */
+}
+.state_title{
+    /* padding-top: 30px; */
+    color: white;
+    font-style: normal;
+    font-size: 70px;
+    /* padding-bottom: 15px; */
+    font-weight: 700;
+    font-family: "PoppinsExtraLight";
+    margin-bottom: 0px;
+}
+
+.state_cards{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 5em;
+}
+.state_card{
+    flex: 2;
+}
+.state_bg{
+    height: 350px;
+    width: 100%;
+    background-image: url(../../assets/coin2.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media only screen and (max-width: 600px) {
+    .state_title{
+        /* padding-top: 1em; */
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "PoppinsExtraLight";
+    }
+    .state_cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0em 5em;
+    }
+    .state_bg{
+        height: 0px;
+        background-image:none;
+    }
+}
